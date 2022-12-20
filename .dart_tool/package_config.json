@@ -2,6 +2,12 @@
   "configVersion": 2,
   "packages": [
     {
+      "name": "_flutterfire_internals",
+      "rootUri": "file:///home/invictus/.pub-cache/hosted/pub.dartlang.org/_flutterfire_internals-1.0.10",
+      "packageUri": "lib/",
+      "languageVersion": "2.16"
+    },
+    {
       "name": "archive",
       "rootUri": "file:///home/invictus/.pub-cache/hosted/pub.dartlang.org/archive-3.3.1",
       "packageUri": "lib/",
@@ -36,6 +42,18 @@
       "rootUri": "file:///home/invictus/.pub-cache/hosted/pub.dartlang.org/clock-1.1.1",
       "packageUri": "lib/",
       "languageVersion": "2.12"
+    },
+    {
+      "name": "cloud_firestore_platform_interface",
+      "rootUri": "file:///home/invictus/.pub-cache/hosted/pub.dartlang.org/cloud_firestore_platform_interface-5.9.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.16"
+    },
+    {
+      "name": "cloud_firestore_web",
+      "rootUri": "file:///home/invictus/.pub-cache/hosted/pub.dartlang.org/cloud_firestore_web-3.1.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.16"
     },
     {
       "name": "collection",
@@ -78,6 +96,60 @@
       "rootUri": "file:///home/invictus/.pub-cache/hosted/pub.dartlang.org/file-6.1.4",
       "packageUri": "lib/",
       "languageVersion": "2.12"
+    },
+    {
+      "name": "firebase_auth",
+      "rootUri": "file:///home/invictus/.pub-cache/hosted/pub.dartlang.org/firebase_auth-4.2.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.16"
+    },
+    {
+      "name": "firebase_auth_platform_interface",
+      "rootUri": "file:///home/invictus/.pub-cache/hosted/pub.dartlang.org/firebase_auth_platform_interface-6.11.5",
+      "packageUri": "lib/",
+      "languageVersion": "2.16"
+    },
+    {
+      "name": "firebase_auth_web",
+      "rootUri": "file:///home/invictus/.pub-cache/hosted/pub.dartlang.org/firebase_auth_web-5.2.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.16"
+    },
+    {
+      "name": "firebase_core",
+      "rootUri": "file:///home/invictus/.pub-cache/hosted/pub.dartlang.org/firebase_core-2.4.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.16"
+    },
+    {
+      "name": "firebase_core_platform_interface",
+      "rootUri": "file:///home/invictus/.pub-cache/hosted/pub.dartlang.org/firebase_core_platform_interface-4.5.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.16"
+    },
+    {
+      "name": "firebase_core_web",
+      "rootUri": "file:///home/invictus/.pub-cache/hosted/pub.dartlang.org/firebase_core_web-2.0.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.16"
+    },
+    {
+      "name": "firebase_database",
+      "rootUri": "file:///home/invictus/.pub-cache/hosted/pub.dartlang.org/firebase_database-10.0.7",
+      "packageUri": "lib/",
+      "languageVersion": "2.16"
+    },
+    {
+      "name": "firebase_database_platform_interface",
+      "rootUri": "file:///home/invictus/.pub-cache/hosted/pub.dartlang.org/firebase_database_platform_interface-0.2.2+15",
+      "packageUri": "lib/",
+      "languageVersion": "2.16"
+    },
+    {
+      "name": "firebase_database_web",
+      "rootUri": "file:///home/invictus/.pub-cache/hosted/pub.dartlang.org/firebase_database_web-0.2.1+17",
+      "packageUri": "lib/",
+      "languageVersion": "2.16"
     },
     {
       "name": "flutter",
@@ -422,7 +494,7 @@
       "languageVersion": "2.18"
     }
   ],
-  "generated": "2022-11-23T13:25:53.222947Z",
+  "generated": "2022-12-20T14:04:52.276287Z",
   "generator": "pub",
-  "generatorVersion": "2.18.2"
+  "generatorVersion": "2.18.5"
 }

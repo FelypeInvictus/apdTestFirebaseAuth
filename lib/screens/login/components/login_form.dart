@@ -4,7 +4,8 @@ import 'package:apd/screens/signup/signup_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:top_snackbar_flutter/custom_snack_bar.dart';
 import 'package:top_snackbar_flutter/top_snack_bar.dart';
-
+import 'package:flutter/material.dart';
+import 'package:firebase_database/firebase_database.dart';
 import '../../../components/already_have_an_account_acheck.dart';
 import '../../../constants.dart';
 
