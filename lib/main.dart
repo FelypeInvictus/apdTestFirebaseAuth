@@ -3,13 +3,13 @@ import 'dart:ui';
 import 'package:apd/constants.dart';
 import 'package:apd/screens/welcome/welcome_screen.dart';
 import 'package:flutter/material.dart';
-
+import 'package:firebase_core/firebase_core.dart';
 //NOTA
-// AS CLASSES QUE VÃO RECEBER OS DADOS DO USUARIO SÃO SignUpForm (signup_form.dart)
-// e LoginForm (login_form.dart)
 
-void main() {
-  runApp(MeuApp());
+Future main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
+  //runApp(MeuApp()); //Só descomente depois de resolver o problema da inicialização do firebase
 }
 
 class MeuApp extends StatelessWidget {
