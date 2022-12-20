@@ -25,7 +25,7 @@ class LoginScreen extends StatelessWidget {
                   children: const [
                     SizedBox(
                       width: 450,
-                      child: LoginForm(),
+                      child: cadastro(),
                     ),
                   ],
                 ),
@@ -54,7 +54,7 @@ class MobileLoginScreen extends StatelessWidget {
             Spacer(),
             Expanded(
               flex: 8,
-              child: LoginForm(),
+              child: cadastro(),
             ),
             Spacer(),
           ],
